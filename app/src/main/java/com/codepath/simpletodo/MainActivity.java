@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
         //add the items to the list via the adapter
         itemsAdapter.add(itemText);
         //clear the edit text
+        writeItems();
         etNewItem.setText("");
         // display notification
         Toast.makeText(getApplicationContext(), "Item added to list", Toast.LENGTH_SHORT).show();
